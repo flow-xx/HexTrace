@@ -1,6 +1,6 @@
 # Privacy Policy — HexTrace and HexTrace: Words
 
-*Last updated 27 August 2026. Applies to **HexTrace** (`com.alistaireaves.hextrace`) and
+*Last updated 31 August 2026. Applies to **HexTrace** (`com.alistaireaves.hextrace`) and
 **HexTrace: Words** (`com.alistaireaves.hextracewords`) for iOS.*
 
 ## The short version
@@ -31,8 +31,10 @@ To be explicit, because "we collect nothing" is easier to say than to verify:
 
 The apps contain **no third-party analytics, advertising, or attribution SDKs.** The only
 third-party code either app contains is [Capacitor](https://capacitorjs.com), the
-open-source shell that hosts the game; no Capacitor plugins are installed, and Capacitor
-itself sends nothing.
+open-source shell that hosts the game, and one official Capacitor plugin —
+**`@capacitor/app`**, which reports when the app moves between the foreground and the
+background so the game can restore its sound effects on returning. It reads no data and
+sends nothing, and neither does Capacitor itself.
 
 ## Children
 
@@ -65,4 +67,3 @@ nothing, any change would be to say so more clearly rather than to widen what is
 ## Contact
 
 Questions about this policy: hextrace.triumph099@passinbox.com
-
